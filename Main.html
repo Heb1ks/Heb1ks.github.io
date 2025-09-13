@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <title>My First WEB PAGE </title>
+        <link rel="stylesheet" href="css/name.css">
+        
+        <a name="topOfPage"></a> <!-- Link for top of the page -->
+
+        <h1 align = "center"><b>Rymabev Eskender</b></h1>
+
+        <h2 align = "center"><i> SE-2421 </i></h2>
+
+        <h3 align = "center">
+            <abbr title = "Front End"> WEB Technologies 1 </abbr>
+        </h3>
+
+        <h3 align = "center">
+            About me 
+        </h3>
+
+        <p aligh = "ceneter"> <u>
+            I am a student of Aitu. I study at the Faculty of Information Technology, majoring in Software Engineering.<br> 
+            I am in my second year of study. I like pizza<br> <!-- br element for line braek-->
+            My mood 💀💀💀
+        </u></p>
+
+    </head>
+
+    <body>
+
+        <h4><p><u> My hobbies </u></p></h4>
+
+        <ol start="1" type = "a">
+            <li>cooking</li>
+            <li><small> video gameS </small></li>
+            <li>progrmaming</li>
+            <li>Lazying</li>
+        </ol>
+
+        <h4> Favorite sites </h4 >
+
+        <ul type = "circle">
+            <li><a href="https://steamcommunity.com/market/" target="_blank">Steam</a></li>
+            <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li> <!-- tagret="_blacnk" needs for opening a link in new tab-->
+            <li><a href="https://web.telegram.org/a/" target="_blank">telegram</a></li>
+        </ul>
+
+        <a href="#topOfPage">Go to top</a>
+
+        <a href="#bottomOfPage">Go to end</a>
+        <hr>
+
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" target="_blank">Second page</a>
+        <hr>
+
+        <a href="SecondP.html" target="_blank">TRULY Second page</a>
+
+
+        <table border="10" width="40%" height="20%" align="center">
+            <tr>
+                <th>subject</th>
+                <th>day</th>
+                <th>time</th>
+            </tr>
+            <tr>
+                <td>WEb</td>
+                <td>Wensday</td>
+                <td>18:00</td>
+            </tr>
+            <tr>
+                <td>AMCS</td>
+                <td>Friday</td>
+                <td>14:00</td>
+            </tr>
+            <tr>
+                <td>Finance</td>
+                <td>Friday</td>
+                <td>15:00</td>
+            </tr>
+            <tr>
+                <td>OPS</td>
+                <td>Monday</td>
+                <td>16:00</td>
+            </tr>
+            
+            <hr>
+        </table>
+
+
+        <!-- CSS styles start here -->
+        <style> 
+
+            body {
+            margin: 20px;/* outer margin around the page */
+            line-height: 1.6; 
+            }
+
+            h1, h2, h3, p, ul, ol, table {
+            margin-bottom: 15px; /* space below each element */
+            }
+
+            table {
+            border-collapse: collapse; /* merge table borders into one */
+            margin-top: 20px;
+            }
+
+            td, th {
+            padding: 8px 15px; /* inner spacing inside table cells */
+            }
+
+
+        </style>
+        <!-- Css style ends here-->
+
+        <form action="" method="post">
+
+            <h1>Form</h1>
+            <p>Name: <input type="text" name="name" size="15" maxlength="15" placeholder="Your name" required></p><!-- name defines the key used to send input data to the server -->
+            <p>Email: <input type="email" placeholder="Your Email" required></p><!-- required makes the field mandatory before form submission -->
+            <p>Color: <input type="color" required></p>
+            <p>Date of your birthday: <input type="date" ></p>
+            <p>Specify your gender</p>
+            <label>Male</label>
+            <input type="radio" name="state"><!-- radio creates a single-choice option button -->
+            <label>Female</label>
+            <input type="radio" name="state">
+            <input type="submit" value="Submit">
+
+        </form>
+            
+        <a name ="bottomOfPage"></a>
+    </body> 
+</html>
