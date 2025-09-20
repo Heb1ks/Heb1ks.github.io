@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #D1DEDE;
+  color: #1d201f;
+}
+
+
+.second-page-site-header {
+  background: #1d201f;
+  color: #D1DEDE;
+  padding: 20px;
+  text-align: center;
+}
+
+.second-page-site-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header-nav ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.header-nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #EAD2AC;
+  font-weight: bold;
+}
+
+.header-nav a:hover {
+  color: #D1DEDE;
+}
+
+
+.second-page-main-content {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #F5FAE1;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.welcome-section h2 {
+  text-align: center;
+  color: #1d201f;
+  margin-bottom: 20px;
+}
+
+.second-page-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.spit-image {
+  border: 3px solid #D1DEDE;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.spit-image:hover {
+  transform: scale(1.05);
+}
+
+.image-captions {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #1d201f;
+  font-style: italic;
+}
+
+
+.click-me-button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  background: #1d201f;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.click-me-button:hover {
+  background: #ffcc00;
+  color: #1d201f;
+  transition: background 0.3s ease;
+}
+
+
+.contact-me-mail {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-me-mail a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.contact-me-mail a:hover {
+  text-decoration: underline;
+}
+
+
+.second-page-footer {
+  background: #1d201f;
+  color: #F5FAE1;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.second-page-footer-text {
+  font-size: 14px;
+  color: #F5FAE1;
+  text-shadow: 0 0 5px #a3ff00, 0 0 10px #76ff03; 
+}
