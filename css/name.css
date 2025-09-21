@@ -58,7 +58,6 @@ body{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
     margin-bottom : 20px;
 }
 
@@ -204,10 +203,10 @@ body{
 .form-container input[type="email"],
 .form-container input[type="date"],
 .form-container input[type="color"] {
-  width: 70%;              /* не на всю ширину */
-  max-width: 300px;        /* ограничение по размеру */
-  margin: 5px auto 15px;   /* центрирование */
-  display: block;          /* для margin auto */
+  width: 70%;             
+  max-width: 300px;        
+  margin: 5px auto 15px;  
+  display: block;          
   padding: 8px 12px;
   border: 2px solid #ffb300;
   border-radius: 8px;
@@ -225,7 +224,7 @@ body{
 }
 
 .form-container input[type="submit"] {
-  width: 70%;              /* как и у инпутов */
+  width: 70%;              
   max-width: 300px;
   padding: 10px;
   background: #ff6f00;
@@ -233,7 +232,7 @@ body{
   border: none;
   border-radius: 8px;
   margin: 20px auto 0;
-  display: block;          /* центрирование */
+  display: block;         
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
