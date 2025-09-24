@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -44,7 +44,7 @@ body {
 
 .second-page-main-content {
   max-width: 900px;
-  margin: 30px auto;
+  margin: 30px auto ;
   padding: 20px;
   background: #F5FAE1;
   border-radius: 8px;
