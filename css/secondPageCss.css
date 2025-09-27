@@ -43,77 +43,81 @@ body {
 
 
 .second-page-main-content {
-  max-width: 900px;
-  margin: 30px auto ;
+  max-width: 1000px;
+  margin: 30px auto;
   padding: 20px;
   background: #F5FAE1;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.welcome-section h2 {
+
+.grid-layout {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.grid-header {
+  grid-area: header;
+  background: #9CAFAA;
+  padding: 15px;
+  border-radius: 6px;
+  font-weight: bold;
   text-align: center;
-  color: #1d201f;
-  margin-bottom: 20px;
 }
 
-.second-page-image {
-  text-align: center;
-  margin: 20px 0;
+.grid-sidebar {
+  grid-area: sidebar;
+  background: #EAD2AC;
+  padding: 15px;
+  border-radius: 6px;
 }
 
-.spit-image {
-  border: 3px solid #D1DEDE;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+.grid-main {
+  grid-area: main;
+  background: #D6DAC8;
+  padding: 15px;
+  border-radius: 6px;
 }
 
-.spit-image:hover {
-  transform: scale(1.05);
-}
-
-.image-captions {
-  display: block;
-  margin-top: 8px;
-  font-size: 14px;
-  color: #1d201f;
-  font-style: italic;
-}
-
-
-.click-me-button {
-  display: block;
-  margin: 20px auto;
-  padding: 12px 20px;
-  font-size: 16px;
-  border: none;
+.grid-footer {
+  grid-area: footer;
   background: #1d201f;
   color: white;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.click-me-button:hover {
-  background: #ffcc00;
-  color: #1d201f;
-  transition: background 0.3s ease;
-}
-
-
-.contact-me-mail {
+  padding: 15px;
   text-align: center;
-  margin-top: 20px;
+  border-radius: 6px;
 }
 
-.contact-me-mail a {
-  color: #0066cc;
-  text-decoration: none;
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
 }
 
-.contact-me-mail a:hover {
-  text-decoration: underline;
+.gallery img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  transition: transform 0.3s, filter 0.3s;
+
 }
 
+.gallery img:hover {
+  transform: scale(1.05);
+  filter: brightness(80%);
+}
 
 .second-page-footer {
   background: #1d201f;
@@ -126,5 +130,5 @@ body {
 .second-page-footer-text {
   font-size: 14px;
   color: #F5FAE1;
-  text-shadow: 0 0 5px #a3ff00, 0 0 10px #76ff03; 
+  text-shadow: 0 0 5px #a3ff00, 0 0 10px #76ff03;
 }
