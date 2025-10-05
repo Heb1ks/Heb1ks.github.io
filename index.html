@@ -1,223 +1,175 @@
-<!DOCTYPE html> 
-<!-- default language weewewwfef -->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">    
-        <title>My First WEB PAGE </title>
-        <link rel="stylesheet" href="css/name.css">
-        
-        <!-- <a name="topOfPage"></a> Link for top of the page -->
+<!DOCTYPE html>
+<html lang="en">
 
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/name.css">
 
     </head>
 
     <body>
-        <div id = "page" >
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
 
-            <div class = "nav-container">
+                    <img src="images/fff.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top rounded-circle" id = "nav-image">
+                    <p class="ms-3 navbar-brand fw-bold">Eskender Rymabev</p>
+                    <p id = "study-group"class="navbar-brand fw-bold">Se-2421</p>
 
-                <nav class = "nav-sites-links">
-                    <img src="images/dead.jpg" alt="Ghoul" class="nav-image">
-                    <h2 class = "h2-links">Links</h2>
-                    <ul>
-                    <!-- <li><a href="#topOfPage">Go to top</a></li>     -->
-                    <li><a href="#bottomOfPage">Go to end</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" target="_blank">Second page</a></li>
-                    <li><a href="SecondP.html" target="_blank">TRULY Second page</a></li>
-                    </ul>
-                </nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="SecondP.html">Second Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/Heb1ks">Github</a>
+                            </li>
 
-            <header class = "site-headersection">
-                <div class="header-container">
-                    <h1 class="creator-name">Rymabev Eskender</h1>
-
-                    <h2 class="study-group">SE-2421</h2>
-
-                    <h3 class="course-title">Web Technologies 1</h3>
-
-                    <h3 class="about-heading">About me</h3>
-
-                    <div class="about-text">
-                        <p class="about-me">
-                            I am a student of Aitu. I study at the Faculty of Information Technology, majoring in Software Engineering.
-                        </p>
-                        <p class="about-me">
-                            I am in my second year of study. I like pizza.
-                        </p>
-                        <p class="mood">
-                            My mood <span>💀</span><span>💀</span><span>💀</span>
-                        </p>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-bs-toggle="dropdown"aria-expanded="false"> Contact </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="contactDropdown">
+                                <li><a class="dropdown-item" href="https://www.instagram.com/rymbaeveendr/" target="_blank">Instagram</a></li>
+                                <li><a class="dropdown-item" href="mailto:eskender5488@gmail.com">Email</a></li>
+                                <li><a class="dropdown-item" href="https://t.me/b1kse" target="_blank">Telegram</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </header>
-            
-            <div class="content-container">
-<!-- 
-                <nav class = "nav-sites-links">
-                    <h2>Links</h2>
-                    <ul>
-                    <li><a href="#topOfPage">Go to top</a></li>    
-                    <li><a href="#bottomOfPage">Go to end</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=youtu.be" target="_blank">Second page</a></li>
-                    <li><a href="SecondP.html" target="_blank">TRULY Second page</a></li>
-                    </ul>
-                </nav> -->
+            </nav>
+        </header>
 
-                <main class="main-content">
-                    <section class = "card-row">
-                        <div class="card">
-                            <img src = "images/catsad.gif" alt="Pick1">
-                            <h3>Ops</h3>
-                            <p>Don't be like that cat.Buy some  good skins in cs</p>
-                            <a href="https://cs.money/ru/csgo/trade/" target="_blank">
-                                <button>Buy skins</button>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <img src="images/Epic_win.gif" alt="Pic2">
-                            <h3>Epic win! 🥳</h3>
-                            <p>Final 50%</p>
-                            <a href="https://cs.money/ru/csgo/trade/" target="_blank">
-                                <button>Buy skins</button>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <img src="images/understandable-have-nice-day.gif" alt="Pic3">
-                            <h3>understandable have a nice day</h3>
-                            <p>Idk what i can write here</p>
-                            <a href="https://cs.money/ru/csgo/trade/" target="_blank">
-                                <button>Buy skins</button>
-                            </a>
-                        </div>
-                    </section> 
+        <main class="container mt-4">
+            <div class="row">
+
+                <section class="col-lg-8 col-md-7" id="portfolio">
+                    <h2 class="mb-4 fw-bold">My Projects</h2>
                     
-                    <section class="portfolio">
-                        <div class="portfolio-grid">
-                            <div class="project-card">
-                                <h3>Python recognizer on camera bot</h3>
-                                <p>Project for Assesment</p>
-                                <a href="https://github.com/Heb1ks/ITP2proj" target="_blank">
-                                    <button>Github</button>
-                                </a>
-                            </div>
-                            <div class="project-card">
-                                <h3>Telegram bot</h3>
-                                <p>First python telegram bot</p>
-                                <a href="https://github.com/Heb1ks/Komekshi-KomekshiTestground" target="_blank">
-                                    <button>Github</button>
-                                </a>
+                    <div class="row g-4">
+
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <img src="images/catsad.gif" class="card-img-top" alt="Project 1">
+                                <div class="card-body">
+                                <h5 class="card-title">Telegram Bot</h5>
+                                <p class="card-text">Your little helper</p>
+                                <a href="https://github.com/Heb1ks/Komekshi-KomekshiTestground" class="btn btn-primary">View Project</a>
+                                </div>
                             </div>
                         </div>
 
-                        <aside class="portfolio-sidebar">
-                            <h3>About Me</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Quia mollitia facilis vero earum necessitatibus quasi itaque. 
-                                Harum atque repellendus debitis! Nobis labore reiciendis ducimus fugit quam repellat suscipit animi dolore!
-                                🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳
-                            </p>
-                        </aside>
-                    </section>
 
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <img src="images/Epic_win.gif" class="card-img-top" alt="Project 2">
+                                <div class="card-body">
+                                <h5 class="card-title">Telegram camera detector</h5>
+                                <p class="card-text">id detector</p>
+                                <a href="https://github.com/Heb1ks/ITP2proj" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <img src="images/FREe.gif" class="card-img-top" alt="Project 3">
+                                <div class="card-body">
+                                <h5 class="card-title">This site </h5>
+                                <p class="card-text">this project</p>
+                                <a href="https://github.com/Heb1ks/Heb1ks.github.io" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
 
-                    <div id = "myhobbies" >
-
-                        <h2>My hobbies:</h2>
-                        <ol class="hobby-list">
-                            <li>Cooking</li>
-                            <li>Video games</li>
-                            <li>Programming</li>
-                            <li>Lazying</li>
-                        </ol>
+                        <div class="col-md-6">
+                            <div class="card h-100 shadow-sm">
+                                <img src="images/qwerty.jpg" class="card-img-top" alt="Project 3">
+                                <div class="card-body">
+                                <h5 class="card-title">Smth</h5>
+                                <p class="card-text">There is nothing i can do.</p>
+                                <a href="#" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="my-favorite-sites">
+                </section>
 
-                        <h2>Favorite sites:</h2>
-                        <ul class="favorite-sites">
-                            <li><a href="https://steamcommunity.com/market/" target="_blank">Steam</a></li>
-                            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
-                            <li><a href="https://web.telegram.org/a/" target="_blank">Telegram</a></li>
+                <aside class="col-lg-4 col-md-5 mt-4 mt-md-0 d-flex">
+                    <div class="p-3 bg-light rounded shadow-sm w-100 h-100">
+                        <h4>About Me</h4>
+                        <p>Hello! Im Eskender </p>
+
+                        <h5 class="mt-4">Contact Info</h5>
+                        <ul class="list-unstyled">
+                            <li>QWerty</li>
+                            <li>QWerty</li>
+                            <li>QWerty</li> 
                         </ul>
-
                     </div>
-
-                    <div class = my-schedule>
-                        <h2>My schedule</h2>
-                        <table class ="schedule-table" border="1">
-                            <tr>
-                                <th>subject</th>
-                                <th>day</th>
-                                <th>time</th>
-                            </tr>
-                            <tr>
-                                <td>WEb</td>
-                                <td>Wensday</td>
-                                <td>18:00</td>
-                            </tr>
-                            <tr>
-                                <td>AMCS</td>
-                                <td>Friday</td>
-                                <td>14:00</td>
-                            </tr>
-                            <tr>
-                                <td>Finance</td>
-                                <td>Friday</td>
-                                <td>15:00</td>
-                            </tr>
-                            <tr>
-                                <td>OPS</td>
-                                <td>Monday</td>
-                                <td>16:00</td>
-                            </tr>
-                            
-                        </table>
-                    </div>
-                    
-                    <div class="sites-forms">
-                        <form action="" method="post" class="form-container">
-
-                            <h1>Form</h1>
-
-                            <label>
-                            Name:
-                            <input type="text" name="name" maxlength="15" placeholder="Your name" required>
-                            </label>
-
-                            <label>
-                            Email:
-                            <input type="email" placeholder="Your Email" required>
-                            </label>
-
-                            <label>
-                            Favorite color:
-                            <input type="color" required>
-                            </label>
-
-                            <label>
-                            Birthday:
-                            <input type="date">
-                            </label>
-
-                            <p>Specify your gender:</p>
-                            <label>
-                            <input type="radio" name="gender" value="male"> Male
-                            </label>
-                            <label>
-                            <input type="radio" name="gender" value="female"> Female
-                            </label>
-
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-
-                    <a name ="bottomOfPage"></a>
-                </main>
+                </aside>
             </div>
-        </div>
-    </body> 
+        </main>
+
+        <footer class="bg-light text-center text-lg-start mt-5 border-top">
+            <div class="container py-3">
+                <div class="row align-items-center">
+
+                <div class="col-md-12 text-md-center text-center mb-2 mb-md-0">
+                    <p id = second-page-footer-text class="mb-0"> © Scebob </p>
+                </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </body>
 </html>
+
+
+
+
+<!-- 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4" >Left</div>
+                <div class="col-md-4" >Middle</div>
+                <div class="col-md-4" >Right</div>
+            </div>
+            <h1> qw</h1>
+
+        </div> -->
+
+
+
+        <!-- <header class = "bg-primary text-white text-center py-3">
+            
+            <h1>My Bootstrap Webpage</h1>
+
+        </header>
+
+        <main>
+        <div class = "container">
+            <h1 class = "text-center my-4">Welcome to My Website</h1>
+            <p class = "lead text-center">This is a simple webpage using Bootstrap for styling.</p>
+            <div class = "text-center">
+                <a href="SecondP.html" class="btn btn-primary">Go to Second Page</a>
+            </div>
+
+        </main>
+
+        <footer class = "bg-dark text-white text-center py-3 mt-4">
+            <small>&copy;  Scebob</small>
+        </footer> -->
