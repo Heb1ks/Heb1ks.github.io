@@ -1,15 +1,12 @@
 :root {
-  --main-bg: #fff7f0;     /* кремовый фон */
-  --main-text: #3a2e2e;   /* тёмно-коричневый текст */
-  --footer-bg: #5d3a00;   /* шоколадный */
-  --accent: #ff914d;      /* оранжевый акцент */
-  --card-bg: #ffffff;     /* светлые карточки */
-  --footer-text: #fff7f0; /* кремовый текст */
-  --heading: #B2967D;     /* ярко-оранжевые заголовки */
+  --main-bg: #fff7f0;     
+  --main-text: #3a2e2e;  
+  --footer-bg: #5d3a00;   
+  --accent: #ff914d;    
+  --card-bg: #ffffff;   
+  --footer-text: #fff7f0; 
+  --heading: #B2967D;     
 }
-
-
-
 
 
 html, body {

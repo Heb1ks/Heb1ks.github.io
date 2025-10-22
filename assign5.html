@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5 – Forms and Validation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/assicstyle5.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/assigjs.js"></script>
+</head>
+
+<body class="container">
+
+    <h1 class="text-center mb-4">Assignment #5: Forms and Validation</h1>
+
+    <h2>Task 0: Simple Contact Form</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <h2>Task 1: Contact Form with HTML5 Validation</h2>
+    <form>
+        <div>
+        <label for="name2">Name:</label><br>
+        <input type="text" id="name2" name="name2" required maxlength="50" placeholder="Enter your name">
+        </div><br>
+        <div>
+        <label for="email2">Email:</label><br>
+        <input type="email" id="email2" name="email2" required placeholder="example@email.com">
+        </div><br>
+        <div>
+        <label for="message2">Message:</label><br>
+        <textarea id="message2" name="message2" required maxlength="200" placeholder="Write your message here..."></textarea>
+        </div><br>
+        <button type="submit">Send</button>
+    </form>
+
+
+    <h2>Task 2: Bootstrap Form Styling</h2>
+    <form class="p-3 border rounded bg-white">
+        <div class="mb-3">
+        <label for="name3" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name3" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+        <label for="email3" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email3" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+        <label for="message3" class="form-label">Message</label>
+        <textarea class="form-control" id="message3" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+
+    <h2>Task 3: Bootstrap Validation Feedback</h2>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+        <label for="validationName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="validationName" required>
+        <div class="invalid-feedback">
+            Name is required.
+        </div>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+        </div>
+
+        <div class="col-md-6">
+        <label for="validationEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="validationEmail" required>
+        <div class="invalid-feedback">
+            Please enter a valid email.
+        </div>
+        <div class="valid-feedback">
+            Looks good!
+        </div>
+        </div>
+
+        <div class="col-12">
+        <button class="btn btn-success" type="submit">Submit form</button>
+        </div>
+    </form>
+
+
+
+    <h2>Task 4: Registration Form</h2>
+    <form class="row g-3 needs-validation p-3 border rounded bg-white" novalidate>
+        <div class="col-md-6">
+        <label for="firstName" class="form-label">First Name</label>
+        <input type="text" class="form-control" id="firstName" required>
+        <div class="invalid-feedback">First name is required.</div>
+        </div>
+
+        <div class="col-md-6">
+        <label for="lastName" class="form-label">Last Name</label>
+        <input type="text" class="form-control" id="lastName" required>
+        <div class="invalid-feedback">Last name is required.</div>
+        </div>
+
+        <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+        <div class="invalid-feedback">Please provide a valid email.</div>
+        </div>
+
+        <div class="col-md-6">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" minlength="6" required>
+        <div class="invalid-feedback">Password must be at least 6 characters.</div>
+        </div>
+
+        <div class="col-md-6">
+        <label for="confirmPassword" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="confirmPassword" required>
+        <div class="invalid-feedback">Passwords must match.</div>
+        </div>
+
+        <div class="col-md-6">
+        <label class="form-label d-block">Gender</label>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="male" required>
+            <label class="form-check-label" for="male">Male</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="female" required>
+            <label class="form-check-label" for="female">Female</label>
+        </div>
+        <div class="invalid-feedback d-block">Please select gender.</div>
+        </div>
+
+        <div class="col-md-12">
+        <label class="form-label">Hobbies</label><br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobby1" value="Reading">
+            <label class="form-check-label" for="hobby1">Reading</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobby2" value="Sports">
+            <label class="form-check-label" for="hobby2">Sports</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="hobby3" value="Music">
+            <label class="form-check-label" for="hobby3">Music</label>
+        </div>
+        </div>
+
+        <div class="col-md-6">
+        <label for="country" class="form-label">Country</label>
+        <select class="form-select" id="country" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Kazakhstan</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Canada</option>
+        </select>
+        <div class="invalid-feedback">Please select a country.</div>
+        </div>
+
+        <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <button class="btn btn-secondary" type="reset">Reset</button>
+        </div>
+    </form>
+
+
+
+</body>
+</html>
