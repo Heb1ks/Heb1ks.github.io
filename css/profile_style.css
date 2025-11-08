@@ -1,0 +1,106 @@
+body {
+  background-color: #0d0f14;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #11131a;
+}
+
+.navbar-brand {
+  color: #9cff00;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #ccc;
+}
+
+.nav-link:hover {
+  color: #9cff00;
+}
+
+.btn-login {
+  border: 1px solid #9cff00;
+  color: #9cff00;
+}
+
+.btn-login:hover {
+  background-color: #9cff00;
+  color: #000;
+}
+
+/* Profile section */
+.profile-section {
+  background-color: #11131a;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(156, 255, 0, 0.1);
+}
+
+.profile-avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #9cff00;
+  object-fit: cover;
+}
+
+.user-level {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.user-balance span {
+  color: #9cff00;
+  font-weight: 600;
+}
+
+.btn-edit {
+  background-color: #9cff00;
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.btn-edit:hover {
+  background-color: #b9ff4f;
+}
+
+/* Table styling */
+.table {
+  background-color: #1a1c24;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: #9cff00;
+  font-weight: 700;
+}
+
+.status-completed {
+  color: #9cff00;
+  font-weight: 600;
+}
+
+.status-pending {
+  color: #ff9900;
+  font-weight: 600;
+}
+
+/* Modal styling */
+.modal-dark {
+  background-color: #1a1c24;
+  color: #fff;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+  border-top: 1px solid #1c1e24;
+  margin-top: 50px;
+}
