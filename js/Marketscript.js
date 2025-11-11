@@ -1,7 +1,5 @@
 $(document).ready(function () {
-  // === массив всех скинов ===
   const skins = [
-    // категория, имя, цена, изображение
     { name: "AK-47 | Anubis", category: "rifle", price: 35.3, img: "images/Ak/Ak_Anubis.webp" },
     { name: "AK-47 | Azimov", category: "rifle", price: 56.2, img: "images/Ak/Ak_Azimov.webp" },
     { name: "AK-47 | Elite Build", category: "rifle", price: 2.3, img: "images/Ak/Ak_EliteBuild.webp" },
